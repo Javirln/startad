@@ -6,3 +6,27 @@
 div, p, small {
     font-family: din;
 }
+
+.navbar {
+  height: 80px;
+  border: 0px !important;
+}
+
+.navbar-default {
+  background-color: white;
+  border: 0px !important;
+}
+
+.navbar-nav>.active>a {
+  background-color: white !important;
+}
+
+.menu-link {
+  font-size: 12pt;
+  color: #0d4a5c !important;
+  font-family: din;
+}
+
+#main-logo {
+  height: 80px;
+}
