@@ -12,6 +12,10 @@ div, p, small {
     font-size: 10pt;
 }
 
+.text-align-left {
+    text-align: left;
+    font-size: 10pt;
+}
 .navbar {
   height: 80px;
   border: 0px !important;
