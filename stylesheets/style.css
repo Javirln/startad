@@ -1,6 +1,6 @@
 @font-face {
     font-family: din;
-    src: url(font/DIN1B__.TTF);
+    src: url(../font/DIN1B__.TTF);
 }
 
 div, p, small {
@@ -39,4 +39,3 @@ div, p, small {
 #main-logo {
   height: 80px;
 }
-
