@@ -1,8 +1,13 @@
 @font-face {
     font-family: din;
-    src: url(DIN1B__.TTF);
+    src: url(font/DIN1B__.TTF);
 }
 
 div, p, small {
     font-family: din;
+}
+
+.text-align-right {
+    text-align: right;
+    font-size: 10pt;
 }
