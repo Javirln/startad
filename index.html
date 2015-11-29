@@ -20,7 +20,7 @@
     <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
-              <a href="index.html"><img id='main-logo' class="navbar-brand img-responsive"  src='img/main.jpeg'/></a>
+              <a href="index.html"><img id='main-logo' class="navbar-brand img-responsive logo"  src='img/main.jpeg'/></a>
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
           </button>
         </div>
@@ -39,7 +39,7 @@
     <div class="row" style="padding-top: 100px;">
       <div class="col-sm-6">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/33Kmm3vZIv4?rel=0&amp;showinfo=0"></iframe>
+          <iframe id="ytplayer" class="embed-responsive-item" src="https://www.youtube.com/embed/33Kmm3vZIv4?rel=0&amp;showinfo=0;autoplay=0;controls=0"></iframe>
         </div>
       </div>
       <div class="col-sm-6">
@@ -60,4 +60,8 @@
       </div>
     </div>
   </div>
+<script type="application/javascript">
+  var player =  iframe.getElementById('ytplayer');
+  player.mute();
+</script>
 </body>
