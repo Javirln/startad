@@ -1,47 +1,75 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- css -->
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+
+  <!-- Important Owl stylesheet -->
+  <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+
+  <!-- Default Theme -->
+  <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+
+  <!-- Include js plugin -->
+  <script src="assets/owl-carousel/owl.carousel.js"></script>
+
+  <title>STARTAD</title>
+</head>
 <body>
-  <head>
-    <meta charset="UTF-8">
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- css -->
-    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-    <meta name="viewport" content="width=device-width, user-scalable=no">	
-
-    <title>STARTAD</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div id="custom-bootstrap-menu" class="navbar navbar-default" role="navigation">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <a href="index.html"><img id='main-logo' class="navbar-brand img-responsive"  src='img/main.jpeg'/></a>
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse navbar-menubuilder">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a class="menu-link" href="about_us.html">NOSOTROS</a></li>
-                <li><a class="menu-link" href="portfolio.html">PORTFOLIO</a></li>
-                <li><a class="menu-link" href="busines_angels.html">BUSINESS ANGELS</a></li>
-                <li><a class="menu-link" href="contact.html">CONTACTO</a></li>
-              </ul>
-            </div>
-          </div>
+<div class="container">
+  <div class="row">
+    <div id="custom-bootstrap-menu" class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="index.html"><img id='main-logo' class="navbar-brand img-responsive"  src='img/main.jpeg'/></a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-menubuilder">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="menu-link" href="about_us.html">NOSOTROS</a></li>
+            <li><a class="menu-link" href="portfolio.html">PORTFOLIO</a></li>
+            <li><a class="menu-link" href="busines_angels.html">BUSINESS ANGELS</a></li>
+            <li><a class="menu-link" href="contact.html">CONTACTO</a></li>
+          </ul>
         </div>
       </div>
-      <div class="row hidden-md hidden-lg hidden-sm" style="height: 140px;">
+    </div>
+  </div>
+  <div class="row hidden-md hidden-lg hidden-sm" style="height: 140px;">
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <div id="owl-example" class="owl-carousel">
+        <div style="height: 278px; width: 201px;"><img style="" class="img-thumbnail" src="img/partner_1.png" /><span>Text</span></div>
+        <div style="height: 278px; width: 201px;"><img class="img-thumbnail" src="img/partner_2.png" /><span>Text</span></div>
+        <div style="height: 278px; width: 201px;"><img class="img-thumbnail" src="img/partner_3.png" /><span>Text</span></div>
+        <div style="height: 278px; width: 201px;"><img class="img-thumbnail" src="img/partner_4.png" /><span>Text</span></div>
+        <div style="height: 278px; width: 201px;"><img class="img-thumbnail" src="img/partner_5.png" /><span>Text</span></div>
       </div>
     </div>
-  </body>
-</head>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function() {
+
+    $("#owl-example").owlCarousel();
+
+  });
+</script>
+
+</body>
