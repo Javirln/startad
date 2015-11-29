@@ -114,3 +114,7 @@ a.menu-link:hover{
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
   background-color: #ffffff;
 }
+
+.navbar-right{
+  padding-top: 25px;
+}
