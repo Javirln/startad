@@ -1,10 +1,11 @@
 @font-face {
-    font-family: din;
-    src: url(../font/DIN1B__.TTF);
+    font-family: din15;
+    src: url(../font/DIN1M__.TTF);
 }
 
+
 div, p, small {
-    font-family: din;
+    font-family: din15;
 }
 
 .text-align-right {
@@ -32,8 +33,25 @@ div, p, small {
 
 .menu-link {
   font-size: 12pt;
+  font-weight: bold;
   color: #0d4a5c !important;
-  font-family: din;
+  font-family: din15;
+}
+
+a.menu-link:hover{
+	color: #3db5b4 !important;
+}
+
+.normal-body{
+	font-size: 10pt;
+	color: black !important;
+	font-family: din15;
+}
+
+.big-word{
+	font-size: 15pt;
+	color: black !important;
+	font-family: din15;
 }
 
 #main-logo {
