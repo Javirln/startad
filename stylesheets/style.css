@@ -3,6 +3,12 @@
     src: url(../font/DIN1M__.TTF);
 }
 
+@font-face {
+    font-family: din17;
+    src: url(../font/DIN1B__.TTF);
+}
+
+
 
 div, p, small {
     font-family: din15;
@@ -70,6 +76,32 @@ a.menu-link:hover{
 	font-size: 15pt;
 	color: black !important;
 	font-family: din15;
+}
+
+.item-portfolio{
+	margin-left: 50px;
+}
+
+.title1-portfolio-element{
+	font-size: 10pt;
+	color: #969696 !important;
+	font-family: din17;
+}
+
+.title2-portfolio-element{
+	font-size: 10pt;
+	color: black !important;
+	font-family: din17;
+}
+
+.body-portfolio-element{
+	font-size: 10pt;
+	color: #aaaaaa !important;
+	font-family: din17;
+}
+
+.text-item-portfolio{
+	margin-top: 40px;
 }
 
 #custom-bootstrap-menu.navbar-default .navbar-brand {

@@ -51,12 +51,45 @@
       </div>
       <div class="row hidden-md hidden-lg hidden-sm" style="height: 140px;">
       </div>
-    <div class="row">
+    <div class="row" style="margin-top: 110px;">
       <div class="col-sm-12">
         <div id="owl-example" class="owl-carousel">
-			<div><img class="img-thumbnail" src="img/portfolio_1.jpg" /><span>Text</span></div>
-			<div><img class="img-thumbnail" src="img/portfolio_2.jpg"/><span>Text</span></div>
-            <div><img class="img-thumbnail" src="img/portfolio_3.jpg" /><span>Text</span></div>
+			<div class="item-portfolio">
+				<img class="img-responsive" src="img/portfolio_1.jpg" />
+				<div class="text-item-portfolio">
+					<p class="title1-portfolio-element">Lorem</p>
+					<p class="title2-portfolio-element">Ipsum</p>
+					<p class="body-portfolio-element">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Etiam ac finibus orci. Integer tincidunt ligula ac mi lacinia, 
+						nec pellentesque mauris commodo
+					</p>
+				</div>
+			</div>
+			<div class="item-portfolio">
+				<img class="img-responsive" src="img/portfolio_2.jpg" />
+				<div class="text-item-portfolio">
+					<p class="title1-portfolio-element">Lorem</p>
+					<p class="title2-portfolio-element">Ipsum</p>
+					<p class="body-portfolio-element">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Etiam ac finibus orci. Integer tincidunt ligula ac mi lacinia, 
+						nec pellentesque mauris commodo
+					</p>
+				</div>
+			</div>
+            <div class="item-portfolio">
+				<img class="img-responsive" src="img/portfolio_3.jpg" />
+				<div class="text-item-portfolio">
+					<p class="title1-portfolio-element">Lorem</p>
+					<p class="title2-portfolio-element">Ipsum</p>
+					<p class="body-portfolio-element">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Etiam ac finibus orci. Integer tincidunt ligula ac mi lacinia, 
+						nec pellentesque mauris commodo
+					</p>
+				</div>
+			</div>
 		</div>
       </div>
     </div>
@@ -64,8 +97,9 @@
   
   <script>
 	  $(document).ready(function() {
-	 
-	  $("#owl-example").owlCarousel();
+	  $("#owl-example").owlCarousel({
+	  	items : 3
+	  });
 	 
 	});
   </script>
