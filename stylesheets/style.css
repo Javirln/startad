@@ -72,6 +72,18 @@ a.menu-link:hover{
 	font-family: din15;
 }
 
+@media (max-width: 990px) {
+  #main-logo {
+    display: block;
+    max-width:200px;
+    height: auto !important;
+  }
+
+  .navbar-right{
+    padding-top: 5px !important;
+  }
+}
+
 #custom-bootstrap-menu.navbar-default .navbar-brand {
   color: rgba(119, 119, 119, 1);
 }
