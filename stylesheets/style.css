@@ -1,11 +1,11 @@
 @font-face {
     font-family: din15;
-    src: url(../font/DIN1M__.TTF);
+    src: url(../stylesheets/font/DIN1M__.TTF);
 }
 
 @font-face {
     font-family: din17;
-    src: url(../font/DIN1B__.TTF);
+    src: url(../stylesheets/font/DIN1B__.TTF);
 }
 
 
