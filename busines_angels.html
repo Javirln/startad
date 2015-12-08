@@ -73,23 +73,8 @@
 					</p>
 				</div>
 			</div>
+			
 			<div class="item-portfolio">
-				<div class="manteca">
-					<div class="manteca-inner-div">
-						<img class="img-responsive business-angels-img" src='img/partner_2.png' />
-					</div>
-				</div>
-				<div class="text-item-portfolio">
-					<p class="title1-portfolio-element">Lorem</p>
-					<p class="title2-portfolio-element">Ipsum</p>
-					<p class="body-portfolio-element">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-						Etiam ac finibus orci. Integer tincidunt ligula ac mi lacinia, 
-						nec pellentesque mauris commodo
-					</p>
-				</div>
-			</div>
-            <div class="item-portfolio">
             	<div class="manteca">
             		<div class="manteca-inner-div">
 						<img class="img-responsive business-angels-img" src='img/partner_3.png' />
@@ -138,6 +123,24 @@
 					</p>
 				</div>
 			</div>
+			
+			<div class="item-portfolio">
+				<div class="manteca">
+					<div class="manteca-inner-div">
+						<img class="img-responsive business-angels-img" src='img/partner_2.png' />
+					</div>
+				</div>
+				<div class="text-item-portfolio">
+					<p class="title1-portfolio-element">Lorem</p>
+					<p class="title2-portfolio-element">Ipsum</p>
+					<p class="body-portfolio-element">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Etiam ac finibus orci. Integer tincidunt ligula ac mi lacinia, 
+						nec pellentesque mauris commodo
+					</p>
+				</div>
+			</div>
+            
 
 		
 		<!--
@@ -156,10 +159,15 @@
   $(document).ready(function() {
 
     $("#owl-example").owlCarousel({
-    	items : 3
+    	items : 3,
+    	pagination: false,
+    	navigation:true,
+	    navigationText: [
+	      "<i class='fa fa-chevron-left fa-2x hidden-xs'></i>",
+	      "<i class='fa fa-chevron-right fa-2x hidden-xs'></i>"
+	      ],
     });
-
-  });
+  });    
 </script>
 
 </body>
